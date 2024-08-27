@@ -1,5 +1,39 @@
+@font-face {
+  font-family: "Outfit";
+  src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "YoungSerif";
+  src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf) format("truetype");
+}
+
 body {
   font-size: 16px;
+  font-family: "Outfit", monospace;
+  font-weight: 400, 600, 700;
+
+  background-color: #f3e5d8;
+}
+
+h1,
+h2 {
+  font-family: "YoungSerif", monospace;
+  font-weight: 400;
+}
+
+.recipe-card {
+  background-color: white;
+  width: 50%;
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.recipe-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 /* footer by FrontEnd Mentor */
