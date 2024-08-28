@@ -13,6 +13,7 @@ body {
   font-size: 16px;
   font-family: "Outfit", monospace;
   font-weight: 400, 600, 700;
+  color: hsl(30, 10%, 34%);
 
   background-color: #f3e5d8;
 }
@@ -23,9 +24,18 @@ h2 {
   font-weight: 400;
 }
 
+h1 {
+  font-size: 2.5rem;
+  color: hsl(24, 5%, 18%);
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+
 .recipe-card {
   background-color: white;
-  width: 50%;
+  width: 52%;
   border-radius: 16px;
   padding: 2rem;
 }
@@ -34,6 +44,35 @@ h2 {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+}
+
+.preparation-time-card {
+  background-color: #fff7fc;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.preparation-time-card h2 {
+  color: hsl(332, 51%, 32%);
+  font-family: "Outfit";
+  font-weight: 600;
+  margin: 0;
+}
+
+.preparation-time-card ul {
+  list-style-type: none;
+  padding: 0 0.5rem;
+}
+
+.preparation-time-card ul li {
+  padding: 0.25rem 0;
+}
+
+.preparation-time-card ul li::before {
+  content: "\2022";
+  color: hsl(332, 51%, 32%);
+  margin-right: 2rem;
+  font-size: 1.25rem;
 }
 
 /* footer by FrontEnd Mentor */
