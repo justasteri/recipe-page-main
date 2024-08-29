@@ -33,6 +33,19 @@ h2 {
   color: hsl(14, 45%, 36%);
 }
 
+ul {
+  list-style-type: square;
+  padding: 0 1.25rem;
+}
+
+ul li {
+  padding: 0.25rem 0;
+  padding-left: 1rem;
+  margin: 0.5rem 0;
+}
+
+/*  */
+
 .recipe-card {
   background-color: white;
   width: 52%;
@@ -48,7 +61,7 @@ h2 {
 
 .preparation-time-card {
   background-color: #fff7fc;
-  padding: 1.5rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 1rem;
 }
 
