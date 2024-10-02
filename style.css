@@ -13,6 +13,7 @@ body {
   font-size: 16px;
   font-family: "Outfit", monospace;
   font-weight: 400, 600, 700;
+  line-height: 1.5;
   color: hsl(30, 10%, 34%);
   background-color: #f3e5d8;
 }
@@ -49,7 +50,7 @@ hr {
 .recipe-card {
   margin: 12rem auto;
   background-color: white;
-  max-width: 40%;
+  max-width: 55%;
   border-radius: 16px;
   padding: 2rem;
 }
@@ -82,7 +83,7 @@ hr {
   color: hsl(332, 51%, 32%);
 }
 
-/*  */
+/* Instructions */
 
 .instructions-list {
   padding: 0 1.25rem;
@@ -90,6 +91,7 @@ hr {
 
 .instructions-list li {
   padding-left: 1rem;
+  margin: 0.5rem 0;
 }
 
 .instructions-list li::marker {
