@@ -25,6 +25,7 @@ h2 {
 }
 
 h1 {
+  margin: 0;
   font-size: 2.5rem;
   color: hsl(24, 5%, 18%);
 }
@@ -45,21 +46,28 @@ hr {
   background-color: #ccc;
 }
 
-/*  */
+/* Card */
 
 .recipe-card {
   margin: 12rem auto;
   background-color: white;
   max-width: 55%;
   border-radius: 16px;
+}
+
+.recipe-card__content {
+  padding: 0 2rem;
+}
+
+.recipe-card__omelette-img {
   padding: 2rem;
 }
 
-.recipe-card img {
+.recipe-card__omelette-img img {
   max-width: 100%;
-  height: auto;
-  border-radius: 8px;
 }
+
+/* Preparation Time */
 
 .preparation-time-card {
   background-color: #fff7fc;
@@ -99,7 +107,7 @@ hr {
   font-weight: bold;
 }
 
-/*  */
+/* Ingredients List */
 .ingredients-list {
   list-style-type: square;
   padding: 0 1.25rem;
@@ -141,23 +149,22 @@ hr {
 }
 
 /* Media Queries */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 715px) {
   body {
     margin: 0;
   }
 
   h1 {
     font-size: 2rem;
+    margin: 1rem 0;
   }
 
   .recipe-card {
     margin: 0;
-    padding: 1.5rem;
     max-width: 100%;
   }
 
-  .omelette-img img {
-    width: 100%;
-    height: auto;
+  .recipe-card__omelette-img {
+    padding: 0;
   }
 }
