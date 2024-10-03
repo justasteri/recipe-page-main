@@ -12,7 +12,7 @@
 }
 
 body {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "Outfit", sans-serif;
   font-weight: 400, 600, 700;
   line-height: 1.5;
@@ -152,7 +152,7 @@ hr {
 }
 
 /* Media Queries */
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 44.75rem) {
   body {
     margin: 0;
   }
