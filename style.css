@@ -56,7 +56,7 @@ hr {
 }
 
 .recipe-card__content {
-  padding: 0 2rem;
+  padding: 0 2rem 0.25rem 2rem;
 }
 
 .recipe-card__omelette-img {
