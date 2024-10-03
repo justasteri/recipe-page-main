@@ -26,6 +26,7 @@ h2 {
 
 h1 {
   margin: 0;
+  padding: 0 2rem;
   font-size: 2.5rem;
   color: hsl(24, 5%, 18%);
 }
